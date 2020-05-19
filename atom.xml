@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://alanyangcn.github.io/</id>
+    <id>http://localhost:4000</id>
     <title>杨立鹏的个人博客</title>
-    <updated>2019-12-13T05:55:13.670Z</updated>
+    <updated>2020-05-19T08:28:09.292Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://alanyangcn.github.io/"/>
-    <link rel="self" href="https://alanyangcn.github.io//atom.xml"/>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
     <subtitle>不积跬步无以至千里，不积小流无以成江海！</subtitle>
-    <logo>https://alanyangcn.github.io//images/avatar.png</logo>
-    <icon>https://alanyangcn.github.io//favicon.ico</icon>
-    <rights>All rights reserved 2019, 杨立鹏的个人博客</rights>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
+    <rights>All rights reserved 2020, 杨立鹏的个人博客</rights>
     <entry>
         <title type="html"><![CDATA[OpenGL入门（一) —— OpenGL专业名词解析]]></title>
-        <id>https://alanyangcn.github.io//post/opengl-ru-men-yi-opengl-zhuan-ye-ming-ci-jie-xi</id>
-        <link href="https://alanyangcn.github.io//post/opengl-ru-men-yi-opengl-zhuan-ye-ming-ci-jie-xi">
+        <id>http://localhost:4000/post/opengl-ru-men-yi-opengl-zhuan-ye-ming-ci-jie-xi</id>
+        <link href="http://localhost:4000/post/opengl-ru-men-yi-opengl-zhuan-ye-ming-ci-jie-xi">
         </link>
         <updated>2019-12-11T03:12:33.000Z</updated>
         <content type="html"><![CDATA[<h3 id="opengl">OpenGL</h3>
@@ -128,8 +128,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Sign In with Apple 使用苹果账号登录你的应用]]></title>
-        <id>https://alanyangcn.github.io//post/de-feng-ge-ba</id>
-        <link href="https://alanyangcn.github.io//post/de-feng-ge-ba">
+        <id>http://localhost:4000/post/de-feng-ge-ba</id>
+        <link href="http://localhost:4000/post/de-feng-ge-ba">
         </link>
         <updated>2019-11-26T07:11:00.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
