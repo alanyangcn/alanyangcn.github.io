@@ -4,10 +4,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Sign In with Apple 使用苹果账号登录你的应用 | 杨立鹏的个人博客</title>
 <meta name="description" content="不积跬步无以至千里，不积小流无以成江海！" />
-<link rel="shortcut icon" href="http://localhost:4000/favicon.ico?v=1589876882289">
+<link rel="shortcut icon" href="https://alanyangcn.github.io//favicon.ico?v=1589939966678">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="http://localhost:4000/styles/main.css">
+<link rel="stylesheet" href="https://alanyangcn.github.io//styles/main.css">
 
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
@@ -19,8 +19,8 @@
     <div class="main">
       <div class="main-content">
         <div class="site-header">
-  <a href="http://localhost:4000">
-  <img class="avatar" src="http://localhost:4000/images/avatar.png?v=1589876882289" alt="">
+  <a href="https://alanyangcn.github.io/">
+  <img class="avatar" src="https://alanyangcn.github.io//images/avatar.png?v=1589939966678" alt="">
   </a>
   <h1 class="site-title">
     杨立鹏的个人博客
@@ -83,13 +83,13 @@
                 12 min read
               </span>
               
-                <a href="http://localhost:4000/tag/tYrcfhTHH" class="post-tag">
+                <a href="https://alanyangcn.github.io/tag/tYrcfhTHH/" class="post-tag">
                   # iOS
                 </a>
               
             </div>
             
-              <img class="post-feature-image" src="http://localhost:4000/post-images/de-feng-ge-ba.jpg" alt="">
+              <img class="post-feature-image" src="https://alanyangcn.github.io//post-images/de-feng-ge-ba.jpg" alt="">
             
             <div class="post-content-wrapper">
               <div class="post-content">
@@ -113,7 +113,7 @@
 </blockquote>
 <h2 id="引言">引言</h2>
 <p>对于绝大部分应用，通常都会有自己的账号体系，但为了避免用户经常忘记账号密码，那些中小型 App 一般都会接入来自大厂的第三方登录 SDK，如在国外常见的有使用 Google、Facebook、Twitter、GitHub 等账号登录；而在国内，近两年几乎所有的 App 都会推荐首先使用手机号+短信验证码的方式注册/登录，同时也会接入像微信、QQ、微博、支付宝等超级 App 的登录 SDK，便于用户实现一键登录，如下图：</p>
-<figure data-type="image" tabindex="1"><img src="https://ss.csdn.net/p?https://mmbiz.qpic.cn/mmbiz_jpg/TicZ5mBTTCu0Yvib0DH1icXvvHEDKTGWhpqymx7FxQjG0KRH7reHYGnI9SI2FCflyUmiam3PraqJeD1Cr6nlAEEOTQ/640?wx_fmt=jpeg" alt="图片"></figure>
+<figure data-type="image" tabindex="1"><img src="https://ss.csdn.net/p?https://mmbiz.qpic.cn/mmbiz_jpg/TicZ5mBTTCu0Yvib0DH1icXvvHEDKTGWhpqymx7FxQjG0KRH7reHYGnI9SI2FCflyUmiam3PraqJeD1Cr6nlAEEOTQ/640?wx_fmt=jpeg" alt="图片" loading="lazy"></figure>
 <p>在 WWDC 2019 上，苹果也想在第三方登录服务这块“蛋糕”上分一杯羹，给我们带来了 “Sign In with Apple”（使用苹果账号登录）。这似乎也是水到渠成的事，因为几乎所有的 iOS/macOS 设备都会登录 Apple ID，而且近两年来，苹果强制对所有的 Apple ID 推行 Two-Factor Authentication（2FA，双重因子验证），大大提高了苹果账号的安全性，减少了盗号风险。</p>
 <p>因此，我们可以畅想在不久的将来，在苹果设备上，只要登录了 Apple ID，就可以直接登录所有的 App，是不是很方便？但这同时也是黑客们的福音啊...?</p>
 <ol>
@@ -127,17 +127,17 @@
 <p>它具有如下几个特性，详见这里：</p>
 <p>简化账号的创建和登录流程，无缝跨设备使用；</p>
 <p>开发者可以获取到已验证过的邮箱作为登录账号或者与用户进行通信（注：用户可以选择隐藏真实邮箱，并使用苹果提供的虚拟邮箱进行授权）；</p>
-<figure data-type="image" tabindex="2"><img src="https://ss.csdn.net/p?https://mmbiz.qpic.cn/mmbiz_jpg/TicZ5mBTTCu0Yvib0DH1icXvvHEDKTGWhpq4Kse6ib6Mw1Cx0IGib46uMiaNUSnZue46Nw9iabezdhQdaRfDIMYPLeXXw/640?wx_fmt=jpeg" alt="图片"></figure>
+<figure data-type="image" tabindex="2"><img src="https://ss.csdn.net/p?https://mmbiz.qpic.cn/mmbiz_jpg/TicZ5mBTTCu0Yvib0DH1icXvvHEDKTGWhpq4Kse6ib6Mw1Cx0IGib46uMiaNUSnZue46Nw9iabezdhQdaRfDIMYPLeXXw/640?wx_fmt=jpeg" alt="图片" loading="lazy"></figure>
 <p>系统内置的安全性：2FA 双重验证（Face ID 或 Touch ID），从此登录不再需要密码；</p>
 <p>尊重用户隐私：开发者仅仅可获取到用户的姓名和邮箱，同时苹果不会收集任何用户与应用之间使用数据；</p>
 <p>反欺诈：使用设备上的机器学习等技术和其他信息，帮助开发者判断一个账号是否为真实用户；</p>
 <p>最重要的是，它是跨平台的！！！</p>
-<figure data-type="image" tabindex="3"><img src="https://ss.csdn.net/p?https://mmbiz.qpic.cn/mmbiz_jpg/TicZ5mBTTCu0Yvib0DH1icXvvHEDKTGWhpqBTHzcMPBQDKFwhIicImHqiaKeBJ6Ct2uxDfFO6pmPNMUib0eYhXQYFIKA/640?wx_fmt=jpeg" alt=""></figure>
+<figure data-type="image" tabindex="3"><img src="https://ss.csdn.net/p?https://mmbiz.qpic.cn/mmbiz_jpg/TicZ5mBTTCu0Yvib0DH1icXvvHEDKTGWhpqBTHzcMPBQDKFwhIicImHqiaKeBJ6Ct2uxDfFO6pmPNMUib0eYhXQYFIKA/640?wx_fmt=jpeg" alt="" loading="lazy"></figure>
 <ol start="3">
 <li>如何集成<br>
 在你的 App 中集成 “Sign In with Apple” 服务，大致只需要以下 4 步骤：</li>
 </ol>
-<figure data-type="image" tabindex="4"><img src="https://ss.csdn.net/p?https://mmbiz.qpic.cn/mmbiz_jpg/TicZ5mBTTCu0Yvib0DH1icXvvHEDKTGWhpqk1US6DSISpnKKSyUqNHcsdQT0txnmqIdS6vHO6MPicomNZHD7DyRvmw/640?wx_fmt=jpeg" alt=""></figure>
+<figure data-type="image" tabindex="4"><img src="https://ss.csdn.net/p?https://mmbiz.qpic.cn/mmbiz_jpg/TicZ5mBTTCu0Yvib0DH1icXvvHEDKTGWhpqk1US6DSISpnKKSyUqNHcsdQT0txnmqIdS6vHO6MPicomNZHD7DyRvmw/640?wx_fmt=jpeg" alt="" loading="lazy"></figure>
 <p>4.1 添加登录按钮<br>
 首先，在你 App 的登录页面添加一个 “Sign In with Apple” 按钮 ASAuthorizationAppleIDButton，并添加按钮点击响应事件，代码大致如下：</p>
 <pre><code>// Add “Sign In with Apple” button to your login viewfunc setupProviderLoginView() {
@@ -146,12 +146,12 @@
 </code></pre>
 <p>当然你也可以自定义苹果登录按钮的样式，样式要求详见这个文档：Human Interface Guidelines</p>
 <p>最终的登录页面效果图参考如下：</p>
-<figure data-type="image" tabindex="5"><img src="https://ss.csdn.net/p?https://mmbiz.qpic.cn/mmbiz_jpg/TicZ5mBTTCu0Yvib0DH1icXvvHEDKTGWhpq8zI2zEzXHibl7DibJ4R35fqleNn11iaBMQuhmZJ14W7oDb053qBIXwkaw/640?wx_fmt=jpeg" alt=""></figure>
+<figure data-type="image" tabindex="5"><img src="https://ss.csdn.net/p?https://mmbiz.qpic.cn/mmbiz_jpg/TicZ5mBTTCu0Yvib0DH1icXvvHEDKTGWhpq8zI2zEzXHibl7DibJ4R35fqleNn11iaBMQuhmZJ14W7oDb053qBIXwkaw/640?wx_fmt=jpeg" alt="" loading="lazy"></figure>
 <p>4.2 发起授权请求<br>
 在上述按钮点击事件 handleAuthorizationAppleIDButtonPress 中配置需要获取的数据权限范围（例如：用户名、邮箱等），然后设置回调代理，并发起登录授权请求，代码如下：</p>
 <p>// Configure request, setup delegates and perform authorization request@objc func handleAuthorizationAppleIDButtonPress() {let appleIDProvider = ASAuthorizationAppleIDProvider()let request = appleIDProvider.createRequest()request.requestedScopes = [.fullName, .email]let authorizationController = ASAuthorizationController(authorizationRequests: [request])authorizationController.delegate = selfauthorizationController.presentationContextProvider = selfauthorizationController.performRequests()}<br>
 当用户点击 “Sign In with Apple” 按钮后，就会显示苹果登录授权确认页面，如下图所示：</p>
-<figure data-type="image" tabindex="6"><img src="https://ss.csdn.net/p?https://mmbiz.qpic.cn/mmbiz_jpg/TicZ5mBTTCu0Yvib0DH1icXvvHEDKTGWhpqPV590b0dmBEhyTSr9zMJtZia4PhmtItmgtxicyLGgZBibgskkEamibU0nA/640?wx_fmt=jpeg" alt=""></figure>
+<figure data-type="image" tabindex="6"><img src="https://ss.csdn.net/p?https://mmbiz.qpic.cn/mmbiz_jpg/TicZ5mBTTCu0Yvib0DH1icXvvHEDKTGWhpqPV590b0dmBEhyTSr9zMJtZia4PhmtItmgtxicyLGgZBibgskkEamibU0nA/640?wx_fmt=jpeg" alt="" loading="lazy"></figure>
 <p>在该页面，用户可以选择是否给你返回他的名字和真实邮箱，当然用户也可以选择隐藏自己的邮箱，此时开发者会得到一个虚拟的用户邮箱地址（此邮箱收到的邮件会转发到用户真实的邮箱上）。当用户点击 “Continue” 按钮后，会进行 “Touch ID” 或者 “Face ID” 双重验证，然后回调数据给开发者。</p>
 <p>4.3 处理回调，服务端验证结果<br>
 我们需要在代码中实现两个代理回调 ASAuthorizationControllerDelegate、ASAuthorizationControllerPresentationContextProviding 分别用于处理授权登录成功和失败、以及提供用于展示授权页面的 Window，代码如下：</p>
@@ -165,7 +165,7 @@
 当开发者的 App 通过苹果账号登录后，iOS/macOS 设备上登录的 Apple ID 发生变化时，例如：</p>
 <p>设备上的 Apple ID 退出登录、切换新的账号登录；</p>
 <p>用户在设置页面禁止 App 使用苹果账号登录，如下图：</p>
-<figure data-type="image" tabindex="7"><img src="https://ss.csdn.net/p?https://mmbiz.qpic.cn/mmbiz_jpg/TicZ5mBTTCu0Yvib0DH1icXvvHEDKTGWhpqAjc5ChXHrTGILickCZ1njuE80yE8LILib4ib3nEsGWicv3YnAKPmWyW5SQ/640?wx_fmt=jpeg" alt=""></figure>
+<figure data-type="image" tabindex="7"><img src="https://ss.csdn.net/p?https://mmbiz.qpic.cn/mmbiz_jpg/TicZ5mBTTCu0Yvib0DH1icXvvHEDKTGWhpqAjc5ChXHrTGILickCZ1njuE80yE8LILib4ib3nEsGWicv3YnAKPmWyW5SQ/640?wx_fmt=jpeg" alt="" loading="lazy"></figure>
 <p>此时，也需要通知到 App 做账号登出处理。因此，我们可以 App 启动时，调用 ASAuthorizationAppleIDProvider 的 getCredentialState 方法，传入当前用户的 UserIdentifier 进行判断：</p>
 <p>let appleIDProvider = ASAuthorizationAppleIDProvider()appleIDProvider.getCredentialState(forUserID: &quot;currentUserIdentifier&quot;) { (credentialState, error) inswitch credentialState {case .authorized:// The Apple ID credential is validbreakcase .revoked:// Apple ID Credential revoked, handle unlinkbreakcase .notFound:// Credential not found, show login UIbreakdefault:break}}<br>
 苹果称，该 API 的速度非常快，我们可以在 App 每次启动时调用，然后根据结果做相应的处理：</p>
@@ -176,9 +176,9 @@
 <p>// Register for revocation notificationlet center = NotificationCenter.defaultlet name = NSNotification.Name.ASAuthorizationAppleIDProviderCredentialRevokedlet observer = center.addObserver(forName: name, object: nil, queue: nil) { (Notification) in// Sign the user out, optionally guide them to sign in again}<br>
 4.5 快速登录已有账户<br>
 如果一个 Apple ID 之前已在 App 中授权登录过了，此时点击 “Sign In with Apple” 会直接显示如下页面：</p>
-<figure data-type="image" tabindex="8"><img src="https://ss.csdn.net/p?https://mmbiz.qpic.cn/mmbiz_jpg/TicZ5mBTTCu0Yvib0DH1icXvvHEDKTGWhpqYx4iacGmILpeeFabdr3pT1BkjicRclPzRBtu4niaHEM6J2b4xgpL0SsibA/640?wx_fmt=jpeg" alt=""></figure>
+<figure data-type="image" tabindex="8"><img src="https://ss.csdn.net/p?https://mmbiz.qpic.cn/mmbiz_jpg/TicZ5mBTTCu0Yvib0DH1icXvvHEDKTGWhpqYx4iacGmILpeeFabdr3pT1BkjicRclPzRBtu4niaHEM6J2b4xgpL0SsibA/640?wx_fmt=jpeg" alt="" loading="lazy"></figure>
 <p>或者 App 上次用自己的账号/密码登录后保存在 Keychain 中，此时可以在登录页面直接请求读取密码进行自动填充：</p>
-<figure data-type="image" tabindex="9"><img src="https://ss.csdn.net/p?https://mmbiz.qpic.cn/mmbiz_jpg/TicZ5mBTTCu0Yvib0DH1icXvvHEDKTGWhpq8g3jtgCh2uYJicM9jkETsDWEiaRQp5EbPlkdWZtkW5n7mHwnlSAgEWSw/640?wx_fmt=jpeg" alt=""></figure>
+<figure data-type="image" tabindex="9"><img src="https://ss.csdn.net/p?https://mmbiz.qpic.cn/mmbiz_jpg/TicZ5mBTTCu0Yvib0DH1icXvvHEDKTGWhpq8g3jtgCh2uYJicM9jkETsDWEiaRQp5EbPlkdWZtkW5n7mHwnlSAgEWSw/640?wx_fmt=jpeg" alt="" loading="lazy"></figure>
 <p>对于读取 Keychain 中保存的密码，苹果提供了与授权登录类似的 API，我们可以在登录页面的 viewDidAppear 方法中执行代码如下：</p>
 <p>/// Prompts the user if an existing iCloud Keychain credential or Apple ID credential is found.func performExistingAccountSetupFlows() {// Prepare requests for both Apple ID and password providers.let requests = [ASAuthorizationAppleIDProvider().createRequest(),ASAuthorizationPasswordProvider().createRequest()]// Create an authorization controller with the given requests.let authorizationController = ASAuthorizationController(authorizationRequests: requests)authorizationController.delegate = selfauthorizationController.presentationContextProvider = selfauthorizationController.performRequests()}<br>
 然后在回调方法中进行判断：</p>
@@ -193,7 +193,7 @@
 </ol>
 <p>iOS, macOS, tvOS, and watchOS: Native API</p>
 <p>Web / Windows / Android: Javascript SDK</p>
-<figure data-type="image" tabindex="10"><img src="https://ss.csdn.net/p?https://mmbiz.qpic.cn/mmbiz_jpg/TicZ5mBTTCu0Yvib0DH1icXvvHEDKTGWhpquShibE2FpLn98SuCiaI4IAKG23xgRibicT5jvP9GgiaM7l4AzEbOWK4wS4g/640?wx_fmt=jpeg" alt=""></figure>
+<figure data-type="image" tabindex="10"><img src="https://ss.csdn.net/p?https://mmbiz.qpic.cn/mmbiz_jpg/TicZ5mBTTCu0Yvib0DH1icXvvHEDKTGWhpquShibE2FpLn98SuCiaI4IAKG23xgRibicT5jvP9GgiaM7l4AzEbOWK4wS4g/640?wx_fmt=jpeg" alt="" loading="lazy"></figure>
 <p>它具有如下 3 个特性：</p>
 <p>Simple browser-based login：点击 Web 页面上的苹果登录按钮，跳转到苹果网站进行登录，然后苹果会把登录结果回调给开发者填写的 redirectUri；</p>
 <p>Similar to native API：JS API 与原生 API 类似，简单易用；</p>
@@ -265,7 +265,7 @@ Result：服务端处理登录回调结果</p>
 
         <div class="site-footer">
    | 
-  <a class="rss" href="http://localhost:4000/atom.xml" target="_blank">RSS</a>
+  <a class="rss" href="https://alanyangcn.github.io//atom.xml" target="_blank">RSS</a>
 </div>
 
 <script>
