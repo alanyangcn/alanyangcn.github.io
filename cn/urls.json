@@ -1,0 +1,105 @@
+demo(
+[
+    {
+        "title": "常用网址",
+        "icon": "linecons-star",
+        "contentUrls": [
+            {
+                "title": "百度",
+                "description": "全球最大的中文搜索引擎。",
+                "logo": "baidu",
+                "url": "https://www.baidu.com"
+            },{
+                "title": "Google",
+                "description": "全球最大的搜索引擎。",
+                "logo": "google",
+                "url": "https://www.google.com"
+            },{
+                "title": "Youtube",
+                "description": "全球最大的视频平台。",
+                "logo": "youtube",
+                "url": "https://www.youtube.com"
+            },{
+                "title": "Bilibili",
+                "description": "全球最大中文ACG网站。",
+                "logo": "bilibili",
+                "url": "https://www.bilibili.com"
+            }
+        ]
+    },
+    {
+        "title": "在线影视",
+        "icon": "linecons-star",
+        "contentUrls": [
+            {
+                "title": "Bilibili",
+                "description": "全球最大中文ACG网站。",
+                "logo": "bilibili",
+                "url": "https://www.bilibili.com"
+            },{
+                "title": "腾讯视频",
+                "description": "腾讯视频官方网站",
+                "logo": "qq_video",
+                "url": "https://v.qq.com"
+            },{
+                "title": "爱奇艺",
+                "description": "爱奇艺官方网站。",
+                "logo": "iqiyi",
+                "url": "https://www.iqiyi.com"
+            },{
+                "title": "优酷",
+                "description": "优酷视频官方网站。",
+                "logo": "youku",
+                "url": "https://www.youku.com"
+            },
+        ]
+    },
+    {
+        "title": "科技资讯",
+        "icon": "linecons-doc",
+        "contentUrls": [{
+            "title": "IT之家",
+            "description": "数码,科技,生活 - 软媒旗下",
+            "logo": "ithome",
+            "url": "https://www.ithome.com"
+        }]
+    },
+    {
+        "title": "灵感采集",
+        "icon": "linecons-lightbulb",
+        "sub": [
+            {
+                "title": "发现产品",
+                "contentUrls": [
+                    {
+                        "title": "百度",
+                        "description": "最大",
+                        "logo": "baidu.png",
+                        "url": "https://www.baidu.com"
+                    }
+                ]
+            },{
+                "title": "界面灵感",
+                "contentUrls": [
+                    {
+                        "title": "百度",
+                        "description": "最大",
+                        "logo": "baidu.png",
+                        "url": "https://www.baidu.com"
+                    }
+                ]
+            },{
+                "title": "网页灵感",
+                "contentUrls": [
+                    {
+                        "title": "百度",
+                        "description": "最大",
+                        "logo": "baidu.png",
+                        "url": "https://www.baidu.com"
+                    }
+                ]
+            }
+        ]
+    }
+]
+)
