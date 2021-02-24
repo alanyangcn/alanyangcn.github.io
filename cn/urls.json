@@ -61,7 +61,12 @@ demo(
                 "title": "片库",
                 "logo": "pianku",
                 "url": "https://www.pianku.li/",
-                "description": "在线观看/BT下载"
+                "description": "在线观看/BT下载，备用：mypianku.com"
+            }, {
+                "title": "片吧",
+                "logo": "pianba",
+                "url": "https://www.pianba.net/",
+                "description": "在线观看/BT下载，备用：pbpb.tv"
             }
         ]
     },
